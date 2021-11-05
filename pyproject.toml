@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cycling_optimizer"
+version = "0.1.0"
+description = "Cycling path optimizer package, for optimal cycling route selection."
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+tox = "^3.24.4"
+flake8 = "^4.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
